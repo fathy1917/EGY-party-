@@ -1,0 +1,113 @@
+.header {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../imgs/events-header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+
+}
+
+.header-content h2 {
+    font-size: 3.75rem;
+    color: white;
+}
+
+.singer-content {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+.singer-content h3 {
+    background-color: #E68285;
+    margin: 0;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+.singer-content p {
+    font-size: 15px;
+    background-color: #CCCCCC;
+    padding: 10px;
+    margin: 0;
+    display: none;
+}
+
+
+
+.counter {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../imgs/count.jpg);
+    height: 40vh;
+}
+
+
+.item .count{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 25px;
+    width: 20%;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+.contact-icons li {
+    border: 1px solid #777777;
+    color: #777777;
+    padding: 5px;
+    padding-inline: 10px;
+}
+
+.contact-icons li:hover {
+    background-color: red;
+    border-color: red;
+    color: white;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+nav ul li a {
+    font-size: 26px;
+    color: white;
+    transition: all 0.3s;
+}
+
+.h-35 {
+    height: 30%;
+}
+
+.exit {
+    right: 20px;
+    transition: all 0.3s;
+}
+
+.pos:hover {
+    color: red !important;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+.w-0 {
+    width: 0;
+}
+
+.nav-icon {
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+}
+
+
+.ul li {
+    display: none;
+}
